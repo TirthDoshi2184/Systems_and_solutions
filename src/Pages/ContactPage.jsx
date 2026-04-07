@@ -251,6 +251,21 @@ export default function Contact() {
             <MapPin size={14} /> Open in Google Maps
           </a>
         </div>
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-navy-900 text-center px-6" style={{ backgroundColor: '#0a0e50' }}>
+          <div className="text-5xl mb-4">📍</div>
+          <p className="text-white font-display font-bold text-xl mb-2">Ahmedabad, Gujarat, India</p>
+          <p className="text-blue-300 text-sm max-w-md">
+            {companyInfo.Works}
+          </p>
+          <a
+            href={`https://maps.app.goo.gl/wNmEgV1gLn1nkjTP6`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-400 text-white font-bold px-6 py-3 rounded-lg transition-colors text-sm uppercase tracking-wider"
+          >
+            <MapPin size={14} /> Open in Google Maps
+          </a>
+        </div>
       </section>
     </div>
   )
