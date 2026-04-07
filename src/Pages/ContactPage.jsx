@@ -238,7 +238,7 @@ export default function Contact() {
       <section className="h-80 bg-gray-200 relative overflow-hidden">
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-navy-900 text-center px-6" style={{ backgroundColor: '#0a0e50' }}>
           <div className="text-5xl mb-4">📍</div>
-          <p className="text-white font-display font-bold text-xl mb-2">Ahmedabad, Gujarat, India</p>
+          <p className="text-white font-display font-bold text-xl mb-2">Office</p>
           <p className="text-blue-300 text-sm max-w-md">
             {companyInfo.office}
           </p>
@@ -251,9 +251,12 @@ export default function Contact() {
             <MapPin size={14} /> Open in Google Maps
           </a>
         </div>
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-navy-900 text-center px-6" style={{ backgroundColor: '#0a0e50' }}>
+      </section>
+      <br />
+      <section className="h-80 bg-gray-200 relative overflow-hidden">
+      <div className="absolute inset-0 flex flex-col items-center justify-center bg-navy-900 text-center px-6" style={{ backgroundColor: '#0a0e50' }}>
           <div className="text-5xl mb-4">📍</div>
-          <p className="text-white font-display font-bold text-xl mb-2">Ahmedabad, Gujarat, India</p>
+          <p className="text-white font-display font-bold text-xl mb-2">Works</p>
           <p className="text-blue-300 text-sm max-w-md">
             {companyInfo.Works}
           </p>
@@ -266,7 +269,7 @@ export default function Contact() {
             <MapPin size={14} /> Open in Google Maps
           </a>
         </div>
-      </section>
+        </section>
     </div>
   )
 }
