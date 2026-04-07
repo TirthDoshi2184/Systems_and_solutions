@@ -63,6 +63,32 @@ export const products = [
     ],
   },
   {
+    id: 'fan-coil-units',
+    name: 'Fan Coil Units',
+    category: 'HVAC',
+    color: '#f97316',
+    shortDesc: 'Compact FCUs for zoned temperature control in hotels, offices, and hospitals.',
+    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80',
+    fullDesc:
+      'Fan Coil Units from Systems & Solutions offer quiet, energy-efficient zone cooling and heating for buildings. Available in horizontal concealed, vertical floor-standing, and cassette configurations to suit all architectural requirements.',
+    specs: [
+      { label: 'Capacity Range', value: '200 CFM – 4000 CFM' },
+      { label: 'Configuration', value: 'Horizontal / Vertical / Cassette' },
+      { label: 'Coil Rows', value: '2, 3, 4 Row' },
+      { label: 'Motor', value: 'ECM / PSC 3-Speed' },
+      { label: 'Sound Level', value: '< 38 dB(A)' },
+      { label: 'Control', value: '2-Pipe / 4-Pipe' },
+    ],
+    applications: [
+      'Hotels & Hospitality',
+      'Offices',
+      'Hospitals',
+      'Apartments',
+      'Retail Spaces',
+      'Server Rooms',
+    ],
+  },
+  {
     id: 'centrifugal-fans',
     name: 'Centrifugal Fans',
     category: 'Fans',
@@ -140,32 +166,7 @@ export const products = [
       'Marine',
     ],
   },
-  {
-    id: 'fan-coil-units',
-    name: 'Fan Coil Units',
-    category: 'HVAC',
-    color: '#f97316',
-    shortDesc: 'Compact FCUs for zoned temperature control in hotels, offices, and hospitals.',
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80',
-    fullDesc:
-      'Fan Coil Units from Systems & Solutions offer quiet, energy-efficient zone cooling and heating for buildings. Available in horizontal concealed, vertical floor-standing, and cassette configurations to suit all architectural requirements.',
-    specs: [
-      { label: 'Capacity Range', value: '200 CFM – 4000 CFM' },
-      { label: 'Configuration', value: 'Horizontal / Vertical / Cassette' },
-      { label: 'Coil Rows', value: '2, 3, 4 Row' },
-      { label: 'Motor', value: 'ECM / PSC 3-Speed' },
-      { label: 'Sound Level', value: '< 38 dB(A)' },
-      { label: 'Control', value: '2-Pipe / 4-Pipe' },
-    ],
-    applications: [
-      'Hotels & Hospitality',
-      'Offices',
-      'Hospitals',
-      'Apartments',
-      'Retail Spaces',
-      'Server Rooms',
-    ],
-  },
+  
   // {
   //   id: 'refrigeration-plants',
   //   name: 'Refrigeration Plants',

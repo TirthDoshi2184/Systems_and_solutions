@@ -187,11 +187,15 @@ export default function Contact() {
                         <option value="">Select a product…</option>
                         {[
                           'Air Handling Units',
+                          'Air Washer Units',
+                          'Process AHU',
                           'Fan Coil Units',
                           'Centrifugal Fans',
-                          'Ventilation Systems',
-                          'Cooling & Heating Coils',
                           'Axial Flow Fans',
+                          'Industrial Exhaust Fans',
+                          'Air Coolers',
+                          'Cooling & Heating Coils',
+                          'Dx-Coils',
                           'Heat Exchangers',
                           'Turnkey Project',
                           'Other Accesories & Services',
@@ -239,7 +243,7 @@ export default function Contact() {
             {companyInfo.office}
           </p>
           <a
-            href={`https://maps.google.com/?q=Prahladnagar+Ahmedabad+Gujarat+India`}
+            href={`https://maps.app.goo.gl/qvy8G7Z8gHwNQUPJ9`}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-5 inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-400 text-white font-bold px-6 py-3 rounded-lg transition-colors text-sm uppercase tracking-wider"
