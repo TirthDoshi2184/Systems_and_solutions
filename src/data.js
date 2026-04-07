@@ -15,6 +15,7 @@ export const companyInfo = {
   employees: '20+',
   projects: '500+',
   clients: '200+',
+  Works: 'Plot No. 180 & 207, Gopal Charan Industrial Hub, Bakrol–Kujad Road, Bujrang, Taluka Daskroi, Ahmedabad – 382430', 
 }
 
 // ─── Nav Links ───────────────────────────────────────────────────────────────

@@ -100,6 +100,13 @@ export default function Footer() {
               </div>
             </li>
             <li className="flex gap-3">
+              <MapPin size={16} className="text-orange-400 shrink-0 mt-0.5" />
+              <div>
+                <p className="text-xs text-blue-400 font-semibold uppercase mb-1">Works</p>
+                <p className="text-sm text-gray-400 leading-relaxed">{companyInfo.Works}</p>
+              </div>
+            </li>
+            <li className="flex gap-3">
               <Phone size={16} className="text-orange-400 shrink-0 mt-0.5" />
               <div>
                 <p className="text-xs text-blue-400 font-semibold uppercase mb-1">Telephone</p>
