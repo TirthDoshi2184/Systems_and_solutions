@@ -31,10 +31,15 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-18 py-3">
 
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
-            <img src="" alt="" />
-          </Link>
-
+{/* Logo */}
+<Link to="/" className="flex items-center gap-3 group">
+  <img
+  src="https://res.cloudinary.com/dne8hhrez/image/upload/v1775754968/Logo_original.jpg_bldate.png"
+  alt="Logo"
+  className="h-14 w-auto object-contain"
+  style={{ maxWidth: '200px', mixBlendMode: 'screen' }}
+/>
+</Link>
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-1">
             {navLinks.map((link) => (

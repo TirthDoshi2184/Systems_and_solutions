@@ -5,20 +5,20 @@ import { companyInfo, navLinks, products } from '../data'
 export default function Footer() {
   return (
     <footer className="bg-gray-950 text-gray-300">
-      {/* Top CTA band */}
-      <div className="bg-orange-500 py-4">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-white font-display font-bold text-xl tracking-wide">
-            Ready to Engineer Your Next Project?
-          </p>
-          <Link
-            to="/contact"
-            className="flex items-center gap-2 bg-white text-orange-600 font-bold px-6 py-2 rounded hover:bg-orange-50 transition-colors text-sm uppercase tracking-wider"
-          >
-            Talk to Our Engineers <ArrowRight size={16} />
-          </Link>
-        </div>
-      </div>
+      <div className="bg-orange-500 border-t border-orange-400/40">
+  <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <p className="text-white font-bold text-base">
+      Ready to Engineer Your Next Project?
+    </p>
+    <Link
+      to="/contact"
+      className="inline-flex items-center gap-2 bg-white text-orange-600 hover:bg-orange-50 font-bold px-6 py-3 rounded-lg uppercase tracking-wider text-sm transition-colors duration-200 whitespace-nowrap"
+    >
+      Talk to Our Engineers <ArrowRight size={15} />
+    </Link>
+  </div>
+</div>
+ 
 
       <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand */}
